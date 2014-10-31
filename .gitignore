@@ -12,3 +12,6 @@
 *.o
 *.a
 mkmf.log
+placebear-0.0.1.gem
+.rvmrc
+.DS_Store
