@@ -1,3 +1,5 @@
+require 'active_support/all'
+
 class PlaceBear
   DEFAULT_WIDTH  = 300
   DEFAULT_HEIGHT = 300
@@ -18,9 +20,9 @@ class PlaceBear
     end
 
     if grayscale
-      image_tag "http://placebear.com/g/#{width}/#{height}"
+      "<img src='http://placebear.com/g/#{width}/#{height}' />".html_safe
     else
-      image_tag "http://placebear.com/#{width}/#{height}"
+      "<img src='http://placebear.com/#{width}/#{height}' />".html_safe
     end
   end
 

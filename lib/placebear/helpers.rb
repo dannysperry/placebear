@@ -5,8 +5,8 @@ module PlaceBear::Helpers
   end
 
   # @see PlaceBear.grayscale
-  def placebear_grayscale(width = nil, height = nil)
+  def place_bear_grayscale(width = nil, height = nil)
     PlaceBear.grayscale(width, height)
   end
-  alias place_bear_gray placebear_grayscale
+  alias place_bear_gray place_bear_grayscale
 end
