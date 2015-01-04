@@ -29,7 +29,7 @@ Or install it yourself as:
 <%= place_bear 200, 400, grayscale: true %>
 ```
 
-The following are all the same
+###The following are all the same
 ```ruby
 PlaceBear.image
 PlaceBear.bear
@@ -37,8 +37,12 @@ place_bear
 place_bear(300)
 place_bear(300,300)
 ```
+All of these return the following html
+```html
+<img src='http://placebear.com/300/300' />
+```
 
-and the grayscaled version
+###The grayscaled version
 ```ruby
 PlaceBear.grayscale
 PlaceBear.gray
@@ -46,8 +50,20 @@ place_bear_grayscale
 place_bear_gray
 place_bear_gray(300)
 place_bear_gray(300, 300)
+```
+which all return the following html
+```html
+<img src='http://placebear.com/g/300/300' />
+```
+
+###With a custom class
+```ruby
 place_bear_gray(300, nil, img_class: 'img-place_bear')
 ```
+```html
+<img src='http://placebear.com/g/300/300' class='img-place-bear' />
+```
+
 ## Contributing
 
 1. Fork it ( https://github.com/dannysperry/placebear )
