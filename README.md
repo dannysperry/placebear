@@ -46,7 +46,7 @@ place_bear_grayscale
 place_bear_gray
 place_bear_gray(300)
 place_bear_gray(300, 300)
-place_bear_gray(300,nil, img_class: 'img-place_bear')
+place_bear_gray(300, nil, img_class: 'img-place_bear')
 ```
 ## Contributing
 
