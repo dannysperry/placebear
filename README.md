@@ -21,12 +21,12 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-<%= place_bear 200, 400 %>
-<%= place_bear_gray 200 %>
+place_bear 200, 400
+place_bear_gray 200
 
-<%= place_bear 200, 400, img_class: 'class-image_element' %>
+place_bear 200, 400, img_class: 'class-image_element'
 
-<%= place_bear 200, 400, grayscale: true %>
+place_bear 200, 400, grayscale: true
 ```
 
 ###The following are all the same
