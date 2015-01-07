@@ -1,6 +1,6 @@
 # Placebear
 
-TODO: Write a gem description
+Placebear is a simple ruby wrapper around http://placebear.com. It creates html image tags for you to use inside your web applications.
 
 ## Installation
 
